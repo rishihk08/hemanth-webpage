@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: fixed;
+}
+.nav {
+  background-color: white;  
+  height: 70px;
+  width: 1536px;
+  
+}
+.nav nav {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  margin-top: 15px;
+  align-items: center;
+  margin-left: 28px;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.right-side {
+  margin-top: 15px;
+  margin-right: 100px;
+}
+.right-side a {
+  padding: 5px 5px;
+  margin-right: 40px;
+}
+.right-side button {
+  width: 90px;
+  height: 40px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  background-color: #fb771a;
+  border: 10px none ;
+  border-radius: 20px;
+  cursor: pointer;
+  padding-left: 20px;
+}
+.right-side a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.login {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+} 
+.loginbt:hover {
+  opacity: 0.8;
+}
+.pointer {
+ color: black;
+}
+.main {
+  margin-left: 400px;
+  margin-top: 350px;
+  background-color: white;
+  width: 500px;
+  height: 100px;
+
+
+}
